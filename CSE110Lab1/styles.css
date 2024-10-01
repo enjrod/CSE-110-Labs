@@ -1,0 +1,32 @@
+.section1bg {
+    background-color: (rgb(245, 240, 230));
+}
+
+.section2bg{
+    background-image: url(https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg);
+    color: white;
+}
+
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #182b49;
+}
+
+#li {
+    float: left;
+}
+
+#li a {
+    display: block;
+    color: navy;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#li a:hover{
+    color: white;
+}

@@ -1,32 +1,56 @@
-.section1bg {
-    background-color: (rgb(245, 240, 230));
-}
-
-.section2bg{
-    background-image: url(https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg);
-    color: white;
-}
-
-#ul {
-    list-style-type: none;
+#section1bg {
+    background-color: rgb(245, 240, 230);
+    width: 100%;
+    padding: 16px;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #182b49;
+    font-size: 28px
 }
 
-#li {
+#section2bg {
+    background-image: url(https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg);
+    background-size: 100% 100%;
+    color: white;
+    padding: 16px;
+    margin: 0;
+    font-size: 28px;
+}
+
+#section3bg {
+    background-color: rgb(245, 240, 230);
+    width: 100%;
+    padding: 16px;
+    margin: 0;
+    font-size: 28px
+}
+
+
+body {
+    margin: 0;
+}
+
+li {
     float: left;
 }
 
-#li a {
+li a {
     display: block;
-    color: navy;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 28px;
 }
-
-#li a:hover{
+li a:hover {
+    background-color: #182b49;
     color: white;
 }
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+

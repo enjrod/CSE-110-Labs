@@ -54,3 +54,62 @@ ul {
     top: 0;
 }
 
+#navbar {
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+
+.toplogo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    text-align: center;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: #182b49;
+    color: white;
+    overflow: scroll;
+    max-height: 500px;
+}
+
+.two {
+    grid-row: 1;
+    grid-column: 2;
+    background-color: #182b49;
+    color: white;
+    overflow: scroll;
+    max-height: 500px;
+}
+
+.three {
+    grid-row: 1;
+    grid-column: 3;
+    background-color: #182b49;
+    color: white;
+    overflow: scroll;
+    max-height: 500px;
+}
+
+.four {
+    grid-row: 1;
+    grid-column: 4;
+    background-color: #182b49;
+    color: white;
+    overflow: scroll;
+    max-height: 500px;
+}
+

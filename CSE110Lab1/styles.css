@@ -119,3 +119,65 @@ ul {
     max-height: 500px;
 }
 
+@media screen and (max-width: 800px) {
+    ul {
+        display: none;
+    }
+
+    .toplogo {
+        max-width: 75%;
+        position: sticky;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+        text-align: center;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .one {
+        grid-row: 1;
+        grid-column: 1;
+        background-color: #182b49;
+        color: white;
+        overflow: scroll;
+        max-height: 500px;
+    }
+    
+    .two {
+        grid-row: 1;
+        grid-column: 2;
+        background-color: #182b49;
+        color: white;
+        overflow: scroll;
+        max-height: 500px;
+    }
+    
+    .three {
+        grid-row: 2;
+        grid-column: 1;
+        background-color: #182b49;
+        color: white;
+        overflow: scroll;
+        max-height: 500px;
+    }
+    
+    .four {
+        grid-row: 2;
+        grid-column: 2;
+        background-color: #182b49;
+        color: white;
+        overflow: scroll;
+        max-height: 500px;
+    }
+
+}

@@ -147,6 +147,9 @@ input {
  cursor: pointer;
 }
 
+.App-body{
+  text-align: center;
+}
 
 
 

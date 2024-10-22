@@ -11,5 +11,6 @@ export enum Label {
     content: string;
     label: Label;
     hearted: boolean;
-
  };
+ 
+ export type GroceryItem = { name: string; isPurchased: boolean };
